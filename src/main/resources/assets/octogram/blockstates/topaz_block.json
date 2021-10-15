@@ -1,0 +1,6 @@
+{
+  "variants":
+  {
+    "": {"model": "octogram:block/topaz_block"}
+  }
+}

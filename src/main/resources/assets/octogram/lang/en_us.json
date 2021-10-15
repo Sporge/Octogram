@@ -1,3 +1,18 @@
 {
-  "item.octogram.ruby": "Ruby"
+  "item.octogram.ruby": "Ruby",
+  "item.octogram.jade": "Jade",
+  "item.octogram.topaz": "Topaz",
+  "item.octogram.aquamarine": "Aquamarine",
+  "item.octogram.spinel": "Spinel",
+  "item.octogram.sapphire": "Sapphire",
+  "item.octogram.onyx": "Onyx",
+  "item.octogram.opal": "Opal",
+  "block.octogram.ruby_block": "Ruby Block",
+  "block.octogram.jade_block": "Jade Block",
+  "block.octogram.topaz_block": "Topaz Block",
+  "block.octogram.aquamarine_block": "Aquamarine Block",
+  "block.octogram.spinel_block": "Spinel Block",
+  "block.octogram.sapphire_block": "Sapphire Block",
+  "block.octogram.onyx_block": "Onyx Block",
+  "block.octogram.opal_block": "Opal Block"
 }

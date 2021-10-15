@@ -1,5 +1,6 @@
 package com.sporge.octogram;
 
+import com.sporge.octogram.block.OctogramBlocks;
 import com.sporge.octogram.item.OctogramItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -31,8 +32,9 @@ public class Octogram
     public Octogram() {
         // Register the setup method for modloading
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
-
+        //add items and blocks
         OctogramItems.register(eventBus);
+        OctogramBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
 
