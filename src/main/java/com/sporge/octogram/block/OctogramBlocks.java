@@ -21,28 +21,28 @@ public class OctogramBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, Octogram.MODID);
     //add in blocks here
     public static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5,6)));
+            () -> new Block(BlockBehaviour.Properties.of(Material.AMETHYST).strength(5,6)));
 
     public static final RegistryObject<Block> AQUAMARINE_BLOCK = registerBlock("aquamarine_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5,6)));
+            () -> new Block(BlockBehaviour.Properties.of(Material.AMETHYST).strength(5,6)));
 
     public static final RegistryObject<Block> JADE_BLOCK = registerBlock("jade_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5,6)));
+            () -> new Block(BlockBehaviour.Properties.of(Material.AMETHYST).strength(5,6)));
 
     public static final RegistryObject<Block> TOPAZ_BLOCK = registerBlock("topaz_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5,6)));
+            () -> new Block(BlockBehaviour.Properties.of(Material.AMETHYST).strength(5,6)));
 
     public static final RegistryObject<Block> SAPPHIRE_BLOCK = registerBlock("sapphire_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5,6)));
+            () -> new Block(BlockBehaviour.Properties.of(Material.AMETHYST).strength(5,6)));
 
     public static final RegistryObject<Block> SPINEL_BLOCK = registerBlock("spinel_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5,6)));
+            () -> new Block(BlockBehaviour.Properties.of(Material.AMETHYST).strength(5,6)));
 
     public static final RegistryObject<Block> OPAL_BLOCK = registerBlock("opal_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5,6)));
+            () -> new Block(BlockBehaviour.Properties.of(Material.AMETHYST).strength(5,6)));
 
     public static final RegistryObject<Block> ONYX_BLOCK = registerBlock("onyx_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5,6)));
+            () -> new Block(BlockBehaviour.Properties.of(Material.AMETHYST).strength(5,6)));
 
     //adds block and item
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block)
